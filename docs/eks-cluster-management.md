@@ -53,7 +53,7 @@ The Terraform documentation describes this best:
 
 Source: [state/remote](https://www.terraform.io/docs/state/remote.html)
 
-We are using remote state backed by S3. This is configured in `providers.tf`. Today, you must edit the [following lines](https://github.com/mozilla-iam/eks-deployment/blob/master/providers.tf#L21-L28) manually to set the proper region, S3 bucket and object key. This will be described in more depth in the [Terraform options](#toc-terraform-options) section below.
+We are using remote state backed by S3. This is configured in `providers.tf`. Today, you must edit the [following lines](https://github.com/mozilla-iam/eks-deployment/blob/master/infrastructure/providers.tf#L21-L29) manually to set the proper region, S3 bucket and object key. This will be described in more depth in the [Terraform options](#toc-terraform-options) section below.
 
 ## <a id="toc-workers"></a>EKS workers
 
